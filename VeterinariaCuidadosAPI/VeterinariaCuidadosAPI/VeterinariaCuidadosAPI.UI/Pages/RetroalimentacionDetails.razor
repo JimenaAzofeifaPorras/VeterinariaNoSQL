@@ -1,0 +1,58 @@
+﻿@page "/retroalimentaciondetails"
+@page "/retroalimentaciondetails/{Id}"
+@inject IRetroalimentacionService RetroalimentacionService
+@inject NavigationManager NavigationManager
+
+<h3>Retroalimentacion Details</h3>
+
+<EditForm Model="@retroalimentacion" OnValidSubmit="SaveRetroalimentacion">
+    <table class="table">
+        <tr>
+            <td>Correo de Usuario:</td>
+            <td><input type="text" @bind="retroalimentacion.UsuarioCorreo" /></td>
+        </tr>
+        <tr>
+            <td>Comentario:</td>
+            <td><input type="number" @bind="retroalimentacion.TextoComentario" /></td>
+        </tr>
+        <tr>
+            <td>Fecha de Creacion:</td>
+            <td><input type="text" @bind="retroalimentacion.FechaCreacion" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center">
+                <input type="submit" class="btn-success" value="Save" />
+                <input type="button" class="btn-secondary" value="Cancel" />
+            </td>
+        </tr>
+    </table>
+</EditForm>
+
+@code {
+    [Parameter]
+
+    public string Id { get; set; }
+
+    Retroalimentacion retroalimentacion = new Retroalimentacion();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (!string.IsNullOrEmpty(Id))
+        {
+            retroalimentacion = await RetroalimentacionService.GetRetroalimentacionDetails(Id);
+        }
+    }
+
+    protected async Task SaveRetroalimentacion()
+    {
+        await RetroalimentacionService.SaveRetroalimentacion(retroalimentacion);
+
+        NavigationManager.NavigateTo("/");
+    }
+
+    protected void Cancel()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+
+}

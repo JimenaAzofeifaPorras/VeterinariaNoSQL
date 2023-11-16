@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "H+OCWTxM63YxRGrCzK8IYGKyDVjBu0E8lMiW5dnLP4zINyZ0wLFUViA4z6EZhXB0fpMDxyV8M2Q+7QkwJURXWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.UI\\VeterinariaCuidadosAPI.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jimen\\.nuget\\packages\\mongodb.bson\\2.22.0\\mongodb.bson.2.22.0.nupkg.sha512",
+    "C:\\Users\\jimen\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\jimen\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

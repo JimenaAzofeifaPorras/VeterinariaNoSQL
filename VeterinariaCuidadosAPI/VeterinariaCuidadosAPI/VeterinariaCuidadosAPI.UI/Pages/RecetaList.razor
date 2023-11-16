@@ -1,0 +1,57 @@
+﻿@page "/"
+@inject IRecetaService RecetaService
+
+<h3>Receta List</h3>
+
+<table>
+    <tbody>
+        <tr>
+            <td colspan="2"><a href="/recetadetails">Agregar</a></td>
+        </tr>
+    </tbody>
+</table>
+
+@if (recetas == null)
+{
+    <p> <em> Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th> Nombre de Factura</th>
+                <th> Medicamentos</th>
+                <th> Precio Total</th>
+                <th> Estado de Pago</th>
+                <th> </th>
+                <th> </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rec in recetas)
+            {
+                <tr>
+                    <td>@rec.Nombre_Factura</td>
+                    <td>@rec.Medicamentos</td>
+                    <td>@rec.PrecioTotal</td>
+                    <td>@rec.Estado_Pago </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    IEnumerable<Receta> recetas;
+
+    protected override async Task OnInitializedAsync()
+    {
+        recetas = await RecetaService.GetAllReceta();
+    }
+
+}
+

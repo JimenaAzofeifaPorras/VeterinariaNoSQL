@@ -1,0 +1,53 @@
+﻿@page "/citadetails"
+@page "/citadetails/{Id}"
+@inject ICitaService CitaService
+@inject NavigationManager NavigationManager
+
+<h3>Cita Details</h3>
+
+<EditForm Model="@citas" OnValidSubmit="SaveCitas">
+    <table class="table">
+        <tr>
+            <td>Fecha:</td>
+            <td><input type="date" @bind="citas.Fecha" /></td>
+        </tr>
+        <tr>
+            <td>Descripcion:</td>
+            <td><input type="text" @bind="citas.Descripcion" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center">
+                <input type="submit" class="btn-success" value="Save" />
+                <input type="button" class="btn-secondary" value="Cancel" />
+            </td>
+        </tr>
+    </table>
+</EditForm>
+
+@code {
+    [Parameter]
+
+    public string Id { get; set; }
+
+    Cita citas = new Cita();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (!string.IsNullOrEmpty(Id))
+        {
+            citas = await CitaService.GetCitasDetails(Id);
+        }
+    }
+    protected async Task SaveCitas()
+    {
+        await CitaService.SaveCitas(citas);
+
+        NavigationManager.NavigateTo("/");
+    }
+
+    protected void Cancel()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+
+}

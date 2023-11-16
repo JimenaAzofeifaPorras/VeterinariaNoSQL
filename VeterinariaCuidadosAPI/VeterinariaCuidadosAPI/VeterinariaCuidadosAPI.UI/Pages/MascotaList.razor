@@ -1,0 +1,58 @@
+﻿@page "/"
+@inject IMascotaService MascotaService
+
+<h3>Mascota List</h3>
+
+<table>
+    <tbody>
+        <tr>
+            <td colspan="2"><a href="/mascotadetails">Agregar</a></td>
+        </tr>
+    </tbody>
+</table>
+
+@if (mascotas == null)
+{
+    <p> <em> Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th> Nombre</th>
+                <th> Especie</th>
+                <th> Raza</th>
+                <th> Edad</th>
+                <th> </th>
+                <th> </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mas in mascotas)
+            {
+                <tr>
+                    <td>@mas.Nombre</td>
+                    <td>@mas.Especie</td>
+                    <td>@mas.Raza</td>
+                    <td>@mas.Edad </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    IEnumerable<Mascota> mascotas;
+
+    protected override async Task OnInitializedAsync()
+    {
+        mascotas = await MascotaService.GetAllMascota();
+    }
+
+}
+
+

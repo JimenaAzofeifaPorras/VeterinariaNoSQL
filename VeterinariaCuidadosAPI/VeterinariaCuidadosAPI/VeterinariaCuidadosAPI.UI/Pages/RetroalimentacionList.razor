@@ -1,0 +1,54 @@
+﻿@page "/"
+@inject IRetroalimentacionService RetroalimentacionService
+
+<h3>Retroalimentacion List</h3>
+
+<table>
+    <tbody>
+        <tr>
+            <td colspan="2"><a href="/retroalimentaciondetails">Agregar</a></td>
+        </tr>
+    </tbody>
+</table>
+
+@if (retroalimentacion == null)
+{
+    <p> <em> Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th> Correo de Usuario</th>
+                <th> Comentario</th>
+                <th> Fecha de Creacion</th>
+                <th> </th>
+                <th> </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ret in retroalimentacion)
+            {
+                <tr>
+                    <td>@ret.UsuarioCorreo</td>
+                    <td>@ret.TextoComentario</td>
+                    <td>@ret.FechaCreacion</td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    IEnumerable<Retroalimentacion> retroalimentacion;
+
+    protected override async Task OnInitializedAsync()
+    {
+        retroalimentacion = await RetroalimentacionService.GetAllRetroalimentacion();
+    }
+
+}

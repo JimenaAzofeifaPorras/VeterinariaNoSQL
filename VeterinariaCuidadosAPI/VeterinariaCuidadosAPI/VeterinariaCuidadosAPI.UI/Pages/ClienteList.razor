@@ -1,0 +1,57 @@
+﻿@page "/"
+@inject IClienteService ClienteService
+
+<h3>Cliente List</h3>
+
+<table>
+    <tbody>
+        <tr>
+            <td colspan="2"><a href="/clientedetails">Agregar</a></td>
+        </tr>
+    </tbody>
+</table>
+
+@if (clientes == null)
+{
+    <p> <em> Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th> Nombre</th>
+                <th> Cedula</th>
+                <th> Correo</th>
+                <th> Telefono</th>
+                <th> </th>
+                <th> </th>
+  
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cli in clientes)
+            {
+                <tr>
+                    <td>@cli.Nombre</td>
+                    <td>@cli.Cedula</td>
+                    <td>@cli.Correo</td>
+                    <td>@cli.Telefono </td>
+                    <td><a href="/clientedetails/@cli.Id">Editar</a> </td>
+                    <td> </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    IEnumerable<Cliente> clientes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        clientes = await ClienteService.GetAllCliente();
+    }
+
+}
+

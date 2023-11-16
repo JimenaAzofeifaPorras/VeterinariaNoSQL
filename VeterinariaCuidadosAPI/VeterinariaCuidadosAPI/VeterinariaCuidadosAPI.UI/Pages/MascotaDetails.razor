@@ -1,0 +1,61 @@
+﻿@page "/mascotadetails"
+@page "/mascotadetails/{Id}"
+@inject IMascotaService MascotaService
+@inject NavigationManager NavigationManager
+
+<h3>Mascota Details</h3>
+
+<EditForm Model="@mascotas" OnValidSubmit="SaveMascota">
+    <table class="table">
+        <tr>
+            <td>Nombre:</td>
+            <td><input type="text" @bind="mascotas.Nombre" /></td>
+        </tr>
+        <tr>
+            <td>Especie:</td>
+            <td><input type="text" @bind="mascotas.Especie" /></td>
+        </tr>
+        <tr>
+            <td>Raza:</td>
+            <td><input type="text" @bind="mascotas.Raza" /></td>
+        </tr>
+        <tr>
+            <td>Edad:</td>
+            <td><input type="text" @bind="mascotas.Edad" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center">
+                <input type="submit" class="btn-success" value="Save" />
+                <input type="button" class="btn-secondary" value="Cancel" />
+            </td>
+        </tr>
+    </table>
+</EditForm>
+
+@code {
+    [Parameter]
+
+    public string Id { get; set; }
+
+    Mascota mascotas = new Mascota();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (!string.IsNullOrEmpty(Id))
+        {
+            mascotas = await MascotaService.GetMascotaDetails(Id);
+        }
+    }
+    protected async Task SaveMascota()
+    {
+        await MascotaService.SaveMascota(mascotas);
+
+        NavigationManager.NavigateTo("/");
+    }
+
+    protected void Cancel()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+
+}
