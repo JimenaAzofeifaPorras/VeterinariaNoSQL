@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VeterinariaCuidadosAPI.Models
-build_property.ProjectDir = C:\Users\jimen\OneDrive\Desktop\Git\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI.Models\
+build_property.ProjectDir = C:\Users\jimen\OneDrive\Desktop\Git\VeterinariaNoSQL\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI.Models\

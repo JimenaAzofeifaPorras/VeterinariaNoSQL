@@ -1,0 +1,61 @@
+﻿@page "/recetadelete/{Id}"
+@inject IRecetaService RecetaService
+@inject NavigationManager NavigationManager
+
+<h3>Receta Delete</h3>
+
+<EditForm Model="@recetas" OnValidSubmit="DeleteReceta">
+    <table class="table">
+        <tr>
+            <td>Nombre de Factura:</td>
+            <td><input type="text" @bind="recetas.Nombre_Factura" /></td>
+        </tr>
+        <tr>
+            <td>Medicamentos:</td>
+            <td><input type="text" @bind="recetas.Medicamentos" /></td>
+        </tr>
+        <tr>
+            <td>PrecioTotal:</td>
+            <td><input type="decimal" @bind="recetas.PrecioTotal" /></td>
+        </tr>
+        <tr>
+            <td>Estado de Pago:</td>
+            <td><input type="text" @bind="recetas.Estado_Pago" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center">
+                <input type="submit" class="btn-success" value="Save" />
+                <input type="button" class="btn-secondary" value="Cancel" />
+            </td>
+        </tr>
+    </table>
+</EditForm>
+
+@code {
+    [Parameter]
+
+    public string Id { get; set; }
+
+    Receta recetas = new Receta();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (!string.IsNullOrEmpty(Id))
+        {
+            recetas = await RecetaService.GetRecetaDetails(Id);
+        }
+    }
+
+    protected async Task DeleteReceta()
+    {
+        await RecetaService.DeleteReceta(recetas);
+
+        NavigationManager.NavigateTo("/");
+    }
+
+    protected void Cancel()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+
+}

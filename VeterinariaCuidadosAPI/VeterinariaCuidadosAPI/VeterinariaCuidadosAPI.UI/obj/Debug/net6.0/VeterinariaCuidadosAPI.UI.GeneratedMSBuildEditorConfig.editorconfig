@@ -9,93 +9,113 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VeterinariaCuidadosAPI.UI
 build_property.RootNamespace = VeterinariaCuidadosAPI.UI
-build_property.ProjectDir = C:\Users\jimen\OneDrive\Desktop\Git\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI.UI\
+build_property.ProjectDir = C:\Users\jimen\OneDrive\Desktop\Git\VeterinariaNoSQL\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI.UI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jimen\OneDrive\Desktop\Git\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI.UI
+build_property.MSBuildProjectDirectory = C:\Users\jimen\OneDrive\Desktop\Git\VeterinariaNoSQL\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI\VeterinariaCuidadosAPI.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/App.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/CitaDetails.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/CitaDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0YURlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/CitaDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0YURldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/CitaList.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/CitaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0YUxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/ClienteDetails.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/ClienteDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZURlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/ClienteDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZURldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/ClienteList.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/ClienteList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZUxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/Counter.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/FetchData.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/Index.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/MascotaDetails.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/MascotaDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFzY290YURlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/MascotaDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFzY290YURldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/MascotaList.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/MascotaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFzY290YUxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/RecetaDetails.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/RecetaDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZXRhRGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/RecetaDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZXRhRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/RecetaList.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/RecetaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZXRhTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/RetroalimentacionDetails.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/RetroalimentacionDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV0cm9hbGltZW50YWNpb25EZWxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/RetroalimentacionDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV0cm9hbGltZW50YWNpb25EZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/RetroalimentacionList.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/RetroalimentacionList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV0cm9hbGltZW50YWNpb25MaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Shared/SurveyPrompt.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/_Imports.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Shared/MainLayout.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0aiypxzide
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Shared/NavMenu.razor]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4n1zxupemk
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/Error.cshtml]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/_Host.cshtml]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/_Layout.cshtml]
+[C:/Users/jimen/OneDrive/Desktop/Git/VeterinariaNoSQL/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI/VeterinariaCuidadosAPI.UI/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

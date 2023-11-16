@@ -130,11 +130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj",
+      "projectUniqueName": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj",
       "projectName": "VeterinariaCuidadosAPI.Models",
-      "projectPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj",
+      "projectPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj",
       "packagesPath": "C:\\Users\\jimen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\obj\\",
+      "outputPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jimen\\AppData\\Roaming\\NuGet\\NuGet.Config",

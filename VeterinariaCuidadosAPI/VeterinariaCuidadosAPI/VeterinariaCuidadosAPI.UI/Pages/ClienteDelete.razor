@@ -1,0 +1,62 @@
+﻿@page "/clientedetails/{Id}"
+@inject IClienteService ClienteService
+@inject NavigationManager NavigationManager
+
+<h3>Cliente Delete</h3>
+
+<p style="color:red; text-align:center">Seguro que quieres eliminar este producto?</p>
+
+<EditForm Model="@clientes" OnValidSubmit="DeleteCliente">
+    <table class="table">
+        <tr>
+            <td>Nombre:</td>
+            <td><input type="text" @bind="clientes.Nombre" /></td>
+        </tr>
+        <tr>
+            <td>Cedula:</td>
+            <td><input type="number" @bind="clientes.Cedula" /></td>
+        </tr>
+        <tr>
+            <td>Correo:</td>
+            <td><input type="text" @bind="clientes.Correo" /></td>
+        </tr>
+        <tr>
+            <td>Telefono:</td>
+            <td><input type="text" @bind="clientes.Telefono" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center">
+                <input type="submit" class="btn-success" value="Save" />
+                <input type="button" class="btn-secondary" value="Cancel" />
+            </td>
+        </tr>
+    </table>
+</EditForm>
+
+@code {
+    [Parameter]
+
+    public string Id { get; set; }
+
+    Cliente clientes = new Cliente();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (!string.IsNullOrEmpty(Id))
+        {
+            clientes = await ClienteService.GetClienteDetails(Id);
+        }
+    }
+    protected async Task DeleteCliente()
+    {
+        await ClienteService.DeleteCliente(Id);
+
+        NavigationManager.NavigateTo("/");
+    }
+
+    protected void Cancel()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+
+}

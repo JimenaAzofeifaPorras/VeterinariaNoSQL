@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.UI\\VeterinariaCuidadosAPI.UI.csproj": {}
+    "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.UI\\VeterinariaCuidadosAPI.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj": {
+    "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj",
+        "projectUniqueName": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj",
         "projectName": "VeterinariaCuidadosAPI.Models",
-        "projectPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj",
+        "projectPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj",
         "packagesPath": "C:\\Users\\jimen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\obj\\",
+        "outputPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jimen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.UI\\VeterinariaCuidadosAPI.UI.csproj": {
+    "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.UI\\VeterinariaCuidadosAPI.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.UI\\VeterinariaCuidadosAPI.UI.csproj",
+        "projectUniqueName": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.UI\\VeterinariaCuidadosAPI.UI.csproj",
         "projectName": "VeterinariaCuidadosAPI.UI",
-        "projectPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.UI\\VeterinariaCuidadosAPI.UI.csproj",
+        "projectPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.UI\\VeterinariaCuidadosAPI.UI.csproj",
         "packagesPath": "C:\\Users\\jimen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.UI\\obj\\",
+        "outputPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jimen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj": {
-                "projectPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj"
+              "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj": {
+                "projectPath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.Models\\VeterinariaCuidadosAPI.Models.csproj"
               }
             }
           }

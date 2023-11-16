@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3IdycBXlv2z0+SnPY8GvwAiziTKDOThP+KAFRi93XubZEOeUmmyPTXajAMJvwerxcGK612UarmXWo0IrsKhyhw==",
+  "dgSpecHash": "KEdAMvmcxEwFQqvbaVwRv+1oD4htPIlOfj9zIOCjmdrgT+fTu4qLbc+QbUHE8qrBEDRBX8MVSCT9XsSl1IkoXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.csproj",
+  "projectFilePath": "C:\\Users\\jimen\\OneDrive\\Desktop\\Git\\VeterinariaNoSQL\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI\\VeterinariaCuidadosAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jimen\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\jimen\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
